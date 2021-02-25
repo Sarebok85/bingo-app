@@ -1,0 +1,42 @@
+.checked {
+  background-color: red !important;
+  color:white
+}
+
+
+.numbers {
+  border-color: red;
+  background-color: beige;
+  width: 100px;
+  height: 100px;
+  font-size: xxx-large;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+}
+
+
+
+.container1 {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.botonGirar{
+  margin-right: 20px;
+}
+
+.lastNumber{
+  font-size: xxx-large;
+}

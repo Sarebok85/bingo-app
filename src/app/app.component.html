@@ -1,0 +1,23 @@
+
+<div class="container1">
+
+  <button [disabled]="spinner"  type="button" (click)="clickButton()" class="btn btn-primary btn-lg botonGirar">¡¡GIRA!!
+  </button>
+
+  <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status" *ngIf="spinner">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <div class="lastNumber" *ngIf="!spinner">
+    {{lastNumber}}
+  </div>
+</div>
+
+
+<div class="container">
+  <div *ngFor="let item of arrayBingo; index as i;" [ngClass]="{'checked': item.checked}" class="numbers" >{{item.id}}</div>
+</div>
+
+
+
+
